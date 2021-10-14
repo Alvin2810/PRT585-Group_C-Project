@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieWebAPI", "MovieWebAPI\MovieWebAPI.csproj", "{6E80DDB1-F500-4095-845F-0C9BE578DC99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{088F3170-E0B9-453C-A627-10A8B2510CF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LOGIC", "LOGIC\LOGIC.csproj", "{DC409730-503E-4CBF-A625-A4DB6EBEFA40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E80DDB1-F500-4095-845F-0C9BE578DC99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E80DDB1-F500-4095-845F-0C9BE578DC99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E80DDB1-F500-4095-845F-0C9BE578DC99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E80DDB1-F500-4095-845F-0C9BE578DC99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{088F3170-E0B9-453C-A627-10A8B2510CF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{088F3170-E0B9-453C-A627-10A8B2510CF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{088F3170-E0B9-453C-A627-10A8B2510CF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{088F3170-E0B9-453C-A627-10A8B2510CF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC409730-503E-4CBF-A625-A4DB6EBEFA40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC409730-503E-4CBF-A625-A4DB6EBEFA40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC409730-503E-4CBF-A625-A4DB6EBEFA40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC409730-503E-4CBF-A625-A4DB6EBEFA40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BBE37F5-66EE-4918-B7E9-E83EA52A597A}
+	EndGlobalSection
+EndGlobal

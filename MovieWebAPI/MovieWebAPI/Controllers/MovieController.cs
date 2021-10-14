@@ -22,7 +22,7 @@ namespace MovieWebAPI.Controllers
             _Movie_Service = Movie_Service;
         }
 
-        [HttpPost]
+        [HttpGet]
         [Route("[action]")]
         public async Task<IActionResult> AddMovie(String name, String releaseDate, String language)
         {
@@ -67,11 +67,11 @@ namespace MovieWebAPI.Controllers
             }
         }
 
-        [HttpPost]
+        [HttpGet]
         [Route("[action]")]
-        public async Task<IActionResult> UpdateMovie(Movie_Pass_Object Movie)
+        public async Task<IActionResult> UpdateMovie(long movie_id,string name, string releaseDate, string language)
         {
-            var result = await _Movie_Service.UpdateMovie(Movie.movie_id, Movie.name, Movie.releaseDate,Movie.language);
+            var result = await _Movie_Service.UpdateMovie(movie_id, name, releaseDate,language);
             switch (result.success)
             {
                 case true:
@@ -82,11 +82,11 @@ namespace MovieWebAPI.Controllers
             }
         }
 
-        [HttpPost]
+        [HttpGet]
         [Route("[action]")]
-        public async Task<IActionResult> DeleteMovie(Movie_Pass_Object Movie)
+        public async Task<IActionResult> DeleteMovie(long movie_id)
         {
-            var result = await _Movie_Service.DeleteMovie(Movie.movie_id);
+            var result = await _Movie_Service.DeleteMovie(movie_id);
             switch (result.success)
             {
                 case true: 

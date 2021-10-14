@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule, HttpClientJsonpModule } from '@angular/common/http';
-import { TableListComponent } from './table-list/table-list.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { DropDownsModule } from '@progress/kendo-angular-dropdowns';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -15,13 +14,14 @@ import { MatSliderModule } from '@angular/material/slider';
 import { InputsModule } from '@progress/kendo-angular-inputs';
 import {TextFieldModule} from '@angular/cdk/text-field';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import { MovieComponent } from './movie/movie.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    TableListComponent,
+    MovieComponent,
   ],
   entryComponents: [],
   imports: [

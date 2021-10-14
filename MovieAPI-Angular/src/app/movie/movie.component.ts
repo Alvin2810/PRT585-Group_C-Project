@@ -2,15 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { ApiService } from '../api.service';
 import { Router } from '@angular/router';
 
-
-
 @Component({
-  selector: 'app-table-list',
-  templateUrl: './table-list.component.html',
-  styleUrls: ['./table-list.component.scss']
+  selector: 'app-movie',
+  templateUrl: './movie.component.html',
+  styleUrls: ['./movie.component.scss']
 })
-
-  export class TableListComponent implements OnInit {
+export class MovieComponent implements OnInit {
     movieList: any;
     movieid: any;
     name: any;
@@ -68,4 +65,3 @@ import { Router } from '@angular/router';
           window.location.reload();
     }
   }
-  

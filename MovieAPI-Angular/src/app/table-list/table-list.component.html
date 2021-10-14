@@ -1,0 +1,86 @@
+<div class="container">
+	
+	<div class="table">
+		<div class="table-header">
+           
+   
+			<div class="header__item"><a id="id" class="filter__link" href="#"><b>ID</b></a></div>
+			<div class="header__item"><a id="name" class="filter__link filter__link--number" href="#"><b>Movie Name</b></a></div>
+			<div class="header__item"><a id="releaseDate" class="filter__link filter__link--number" href="#"><b>Release Date</b></a></div>
+			<div class="header__item"><a id="language" class="filter__link filter__link--number" href="#"><b>Language</b></a></div>
+			<div class="header__item"><a id="action" class="filter__link filter__link--number" href="#"><b>Actions</b></a></div>
+		</div>
+		<div *ngFor="let movie of movieList" class="table-content">	
+			<div class="table-row">		
+				<div class="table-data"><input type="text" name="id" class="form-control" [(ngModel)]="movie.movie_id"></div>
+				<div class="table-data"><input type="text" name="name" class="form-control" [(ngModel)]="movie.name"></div>
+				<div class="table-data"><input type="text" name="releaseDate" class="form-control" [(ngModel)]="movie.releaseDate"></div>
+				<div class="table-data"><input type="text" name="language" class="form-control" [(ngModel)]="movie.language"></div>
+				<div class="table-data">
+                
+                    <!-- <button class="badge badge-danger mr-2" (click)="deleteCustomer(customer.customerID)">
+                        Delete
+                      </button>
+                      <button class="badge badge-danger mr-2" (click)="updateCustomer(customer)">
+                        Update
+                      </button> -->
+                      <button mat-stroked-button color="warn" (click)="deleteMovie(movie.movie_id)">
+                        Delete
+                      </button>
+                      <!-- <button mat-button class="badge mr-2" color="primary" (click)="updateCustomer(customer)">
+                        Update
+                      </button> -->
+                </div>
+                <div class="table-data">
+                    <!-- <button class="badge badge-danger mr-2" (click)="deleteCustomer(customer.customerID)">
+                        Delete
+                      </button>
+                      <button class="badge badge-danger mr-2" (click)="updateCustomer(customer)">
+                        Update
+                      </button> -->
+                      <!-- <button mat-button class="badge mr-2" color="warn" (click)="deleteCustomer(customer.customerID)">
+                        Delete
+                      </button> -->
+                      <button mat-raised-button color="primary" (click)="updateMovie(movie)">
+                        Update
+                      </button>
+                </div>
+			</div>
+		</div>	
+
+        <form #movie = "ngForm" (ngSubmit) = "createMovie(movie.value)">
+
+                        
+            <table class="table">
+              <thead class=" text-primary">
+                  <th>
+                      <input type="text" name="movie_id" class="form-control" ngModel>
+                  </th>
+                  <th>
+                      <input type="text" name="name" class="form-control" ngModel>
+                  </th>
+                  <th>
+                    <th>
+                        <input type="text" name="releaseDate" class="form-control" ngModel>
+                    </th>
+                    <th>
+                        <input type="text" name="language" class="form-control" ngModel>
+                    </th>
+                    <th>
+                      <!-- <button class="badge badge-danger mr-2">
+                            Create
+                        </button> -->
+                        <button mat-raised-button color="accent">
+                            Create
+                        </button>
+                  </th>
+              </thead>
+            </table>
+        </form>
+
+
+
+
+	</div>
+</div>
+

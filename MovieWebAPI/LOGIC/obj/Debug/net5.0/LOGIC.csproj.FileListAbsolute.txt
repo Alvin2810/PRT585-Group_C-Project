@@ -13,3 +13,18 @@ C:\Users\monsi\Desktop\Group Project\Movie_App\PRT585-Group_C-Project\MovieWebAP
 C:\Users\monsi\Desktop\Group Project\Movie_App\PRT585-Group_C-Project\MovieWebAPI\LOGIC\obj\Debug\net5.0\LOGIC.dll
 C:\Users\monsi\Desktop\Group Project\Movie_App\PRT585-Group_C-Project\MovieWebAPI\LOGIC\obj\Debug\net5.0\ref\LOGIC.dll
 C:\Users\monsi\Desktop\Group Project\Movie_App\PRT585-Group_C-Project\MovieWebAPI\LOGIC\obj\Debug\net5.0\LOGIC.pdb
+C:\STUDIES\Github\PRT585-Group_C-Project\MovieWebAPI\LOGIC\bin\Debug\net5.0\LOGIC.deps.json
+C:\STUDIES\Github\PRT585-Group_C-Project\MovieWebAPI\LOGIC\bin\Debug\net5.0\LOGIC.dll
+C:\STUDIES\Github\PRT585-Group_C-Project\MovieWebAPI\LOGIC\bin\Debug\net5.0\ref\LOGIC.dll
+C:\STUDIES\Github\PRT585-Group_C-Project\MovieWebAPI\LOGIC\bin\Debug\net5.0\LOGIC.pdb
+C:\STUDIES\Github\PRT585-Group_C-Project\MovieWebAPI\LOGIC\bin\Debug\net5.0\DAL.dll
+C:\STUDIES\Github\PRT585-Group_C-Project\MovieWebAPI\LOGIC\bin\Debug\net5.0\DAL.pdb
+C:\STUDIES\Github\PRT585-Group_C-Project\MovieWebAPI\LOGIC\obj\Debug\net5.0\LOGIC.csproj.AssemblyReference.cache
+C:\STUDIES\Github\PRT585-Group_C-Project\MovieWebAPI\LOGIC\obj\Debug\net5.0\LOGIC.GeneratedMSBuildEditorConfig.editorconfig
+C:\STUDIES\Github\PRT585-Group_C-Project\MovieWebAPI\LOGIC\obj\Debug\net5.0\LOGIC.AssemblyInfoInputs.cache
+C:\STUDIES\Github\PRT585-Group_C-Project\MovieWebAPI\LOGIC\obj\Debug\net5.0\LOGIC.AssemblyInfo.cs
+C:\STUDIES\Github\PRT585-Group_C-Project\MovieWebAPI\LOGIC\obj\Debug\net5.0\LOGIC.csproj.CoreCompileInputs.cache
+C:\STUDIES\Github\PRT585-Group_C-Project\MovieWebAPI\LOGIC\obj\Debug\net5.0\LOGIC.csproj.CopyComplete
+C:\STUDIES\Github\PRT585-Group_C-Project\MovieWebAPI\LOGIC\obj\Debug\net5.0\LOGIC.dll
+C:\STUDIES\Github\PRT585-Group_C-Project\MovieWebAPI\LOGIC\obj\Debug\net5.0\ref\LOGIC.dll
+C:\STUDIES\Github\PRT585-Group_C-Project\MovieWebAPI\LOGIC\obj\Debug\net5.0\LOGIC.pdb

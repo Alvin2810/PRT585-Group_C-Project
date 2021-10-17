@@ -7485,28 +7485,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\monsi\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\lahoa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\monsi\\Desktop\\Group Project\\Movie_App\\PRT585-Group_C-Project\\MovieWebAPI\\LOGIC\\LOGIC.csproj",
+      "projectUniqueName": "C:\\STUDIES\\Github\\PRT585-Group_C-Project\\MovieWebAPI\\LOGIC\\LOGIC.csproj",
       "projectName": "LOGIC",
-      "projectPath": "C:\\Users\\monsi\\Desktop\\Group Project\\Movie_App\\PRT585-Group_C-Project\\MovieWebAPI\\LOGIC\\LOGIC.csproj",
-      "packagesPath": "C:\\Users\\monsi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\monsi\\Desktop\\Group Project\\Movie_App\\PRT585-Group_C-Project\\MovieWebAPI\\LOGIC\\obj\\",
+      "projectPath": "C:\\STUDIES\\Github\\PRT585-Group_C-Project\\MovieWebAPI\\LOGIC\\LOGIC.csproj",
+      "packagesPath": "C:\\Users\\lahoa\\.nuget\\packages\\",
+      "outputPath": "C:\\STUDIES\\Github\\PRT585-Group_C-Project\\MovieWebAPI\\LOGIC\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\monsi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\lahoa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -7519,8 +7511,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\monsi\\Desktop\\Group Project\\Movie_App\\PRT585-Group_C-Project\\MovieWebAPI\\DAL\\DAL.csproj": {
-              "projectPath": "C:\\Users\\monsi\\Desktop\\Group Project\\Movie_App\\PRT585-Group_C-Project\\MovieWebAPI\\DAL\\DAL.csproj"
+            "C:\\STUDIES\\Github\\PRT585-Group_C-Project\\MovieWebAPI\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\STUDIES\\Github\\PRT585-Group_C-Project\\MovieWebAPI\\DAL\\DAL.csproj"
             }
           }
         }

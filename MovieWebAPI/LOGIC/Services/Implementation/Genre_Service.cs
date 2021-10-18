@@ -4,7 +4,6 @@ using DAL.Functions.Specific;
 using LOGIC.Services.Interfaces;
 using LOGIC.Services.Models;
 using LOGIC.Services.Models.Genre;
-using LOGIC.Services.Models.Movie;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,14 +16,30 @@ namespace LOGIC.Services.Implementation
     {
         private IGenre_Operations _Genre_operations = new Genre_Operations();
 
-        public Task<Generic_ResultSet<Genre_ResultSet>> AddGenre(string name)
-        {
-            throw new NotImplementedException();
-        }
 
-        public Task<Generic_ResultSet<bool>> DeleteGenre(long id)
+        public async Task<Generic_ResultSet<bool>> DeleteGenre(long Genre_id)
         {
-            throw new NotImplementedException();
+            Generic_ResultSet<bool> result = new Generic_ResultSet<bool>();
+            try
+            {
+                //delete Genre IN DB
+                var    GenreDeleted = await _Genre_operations.Delete(Genre_id);
+
+                //SET SUCCESSFUL RESULT VALUES
+                result.userMessage = string.Format("The supplied Genre {0} was deleted successfully", Genre_id);
+                result.internalMessage = "LOGIC.Services.Implementation.Genre_Service: DeleteGenre() method executed successfully.";
+                result.result_set = GenreDeleted;
+                result.success = true;
+            }
+            catch (Exception exception)
+            {
+                //SET FAILED RESULT VALUES
+                result.exception = exception;
+                result.userMessage = "We failed to Delete your information for the Genre supplied. Please try again.";
+                result.internalMessage = string.Format("ERROR: LOGIC.Services.Implementation.Genre_Service: DeleteGenre(): {0}", exception.Message); ;
+                //Success by default is set to false & its always the last value we set in the try block, so we should never need to set it in the catch block.
+            }
+            return result;
         }
 
         public async Task<Generic_ResultSet<List<Genre_ResultSet>>> GetAllGenres()
@@ -32,9 +47,9 @@ namespace LOGIC.Services.Implementation
             Generic_ResultSet<List<Genre_ResultSet>> result = new Generic_ResultSet<List<Genre_ResultSet>>();
             try
             {
-                //GET ALL Movie MovieES
+                //GET ALL Genre Genres
                 List<Genre> Genres = await _Genre_operations.ReadAll();
-                //MAP DB Movie RESULTS
+                //MAP DB Genre RESULTS
                 result.result_set = new List<Genre_ResultSet>();
                 Genres.ForEach(s =>
                 {
@@ -47,29 +62,139 @@ namespace LOGIC.Services.Implementation
                 });
 
                 //SET SUCCESSFUL RESULT VALUES
-                result.userMessage = string.Format("All Movie Moviees obtained successfully");
-                result.internalMessage = "LOGIC.Services.Implementation.Movie_Service: GetAllMovies() method executed successfully.";
+                result.userMessage = string.Format("All Genre Genres obtained successfully");
+                result.internalMessage = "LOGIC.Services.Implementation.Genre_Service: GetAllGenres() method executed successfully.";
                 result.success = true;
             }
             catch (Exception exception)
             {
                 //SET FAILED RESULT VALUES
                 result.exception = exception;
-                result.userMessage = "We failed fetch all the required Movie Moviees from the database.";
-                result.internalMessage = string.Format("ERROR: LOGIC.Services.Implementation.Movie_Service: GetAllMovies(): {0}", exception.Message); ;
+                result.userMessage = "We failed fetch all the required Genre Genres from the database.";
+                result.internalMessage = string.Format("ERROR: LOGIC.Genres.Implementation.Genre_Service: GetAllGenres(): {0}", exception.Message); ;
                 //Success by default is set to false & its always the last value we set in the try block, so we should never need to set it in the catch block.
             }
             return result;
         }
 
-        public Task<Generic_ResultSet<Genre_ResultSet>> GetGenreById(long id)
+        public async Task<Generic_ResultSet<Genre_ResultSet>> GetGenreById(long id)
         {
-            throw new NotImplementedException();
+            Generic_ResultSet<Genre_ResultSet> result = new Generic_ResultSet<Genre_ResultSet>();
+            try
+            {
+                //GET by ID Genre 
+                var Genre = await _Genre_operations.Read(id);
+
+                //MAP DB Genre RESULTS
+                result.result_set = new Genre_ResultSet
+                {
+                    genre_id = Genre.GenreId,
+                    name = Genre.Genre_Name,
+
+                };
+
+                //SET SUCCESSFUL RESULT VALUES
+                result.userMessage = string.Format("Get ByID - Genre  obtained successfully");
+                result.internalMessage = "LOGIC.Services.Implementation.Genre_Service: Get ByID() method executed successfully.";
+                result.success = true;
+            }
+            catch (Exception exception)
+            {
+                //SET FAILED RESULT VALUES
+                result.exception = exception;
+                result.userMessage = "We failed fetch Get ByID the required Genre  from the database.";
+                result.internalMessage = string.Format("ERROR: LOGIC.Services.Implementation.Genre_Service: Get ByID(): {0}", exception.Message); ;
+                //Success by default is set to false & its always the last value we set in the try block, so we should never need to set it in the catch block.
+            }
+            return result;
         }
 
-        public Task<Generic_ResultSet<Genre_ResultSet>> UpdateGenre(long id, string name)
+
+        public async Task<Generic_ResultSet<Genre_ResultSet>> AddGenre(String name)
         {
-            throw new NotImplementedException();
+            Generic_ResultSet<Genre_ResultSet> result = new Generic_ResultSet<Genre_ResultSet>();
+            try
+            {
+                //INIT NEW DB ENTITY OF Genre
+                Genre Genre = new Genre
+                {
+                    Genre_Name = name,
+
+                };
+
+                //ADD Genre TO DB
+                Genre = await _Genre_operations.Create(Genre);
+
+                //MANUAL MAPPING OF RETURNED Genre VALUES TO OUR Genre_ResultSet
+                Genre_ResultSet GenreAdded = new Genre_ResultSet
+                {
+                    name = Genre.Genre_Name,
+                    genre_id = Genre.GenreId,
+
+                };
+
+                //SET SUCCESSFUL RESULT VALUES
+                result.userMessage = string.Format("The supplied Genre {0} was added successfully", name);
+                result.internalMessage = "LOGIC.Services.Implementation.Genre_Service: AddGenre() method executed successfully.";
+                result.result_set = GenreAdded;
+                result.success = true;
+            }
+            catch (Exception exception)
+            {
+                //SET FAILED RESULT VALUES
+                result.exception = exception;
+                result.userMessage = "We failed to register your information for the Genre Genre supplied. Please try again.";
+                result.internalMessage = string.Format("ERROR: LOGIC.Services.Implementation.Genre_Service: AddGenre(): {0}", exception.Message); ;
+                //Success by default is set to false & its always the last value we set in the try block, so we should never need to set it in the catch block.
+            }
+            return result;
+        }
+
+
+        public async Task<Generic_ResultSet<Genre_ResultSet>> UpdateGenre(Int64 Genre_id, String name)
+        {
+            Generic_ResultSet<Genre_ResultSet> result = new Generic_ResultSet<Genre_ResultSet>();
+            try
+            {
+                //INIT NEW DB ENTITY OF Genre
+                Genre Genre = new Genre
+                {
+                    GenreId = Genre_id,
+                    Genre_Name = name,
+
+
+
+                    //Genre_ModifiedDate = DateTime.UtcNow 
+                };
+
+                //UPDATE Genre IN DB
+                Genre = await _Genre_operations.Update(Genre, Genre_id);
+
+                //MANUAL MAPPING OF RETURNED Genre VALUES TO OUR Genre_ResultSet
+                Genre_ResultSet GenreUpdated = new Genre_ResultSet
+                {
+                    name = Genre.Genre_Name,
+                    genre_id = Genre.GenreId,
+
+
+
+                };
+
+                //SET SUCCESSFUL RESULT VALUES
+                result.userMessage = string.Format("The supplied Genre Genre {0} was updated successfully", name);
+                result.internalMessage = "LOGIC.Services.Implementation.Genre_Service: UpdateGenre() method executed successfully.";
+                result.result_set = GenreUpdated;
+                result.success = true;
+            }
+            catch (Exception exception)
+            {
+                //SET FAILED RESULT VALUES
+                result.exception = exception;
+                result.userMessage = "We failed to update your information for the Genre Genre supplied. Please try again.";
+                result.internalMessage = string.Format("ERROR: LOGIC.Services.Implementation.Genre_Service: UpdateGenre(): {0}", exception.Message); ;
+                //Success by default is set to false & its always the last value we set in the try block, so we should never need to set it in the catch block.
+            }
+            return result;
         }
     }
 }

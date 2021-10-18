@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using MovieWebAPI.Models.Movie;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -69,9 +68,9 @@ namespace MovieWebAPI.Controllers
 
         [HttpGet]
         [Route("[action]")]
-        public async Task<IActionResult> UpdateGenre(long movie_id,string name)
+        public async Task<IActionResult> UpdateGenre(long genre_id,string name)
         {
-            var result = await _Genre_Service.UpdateGenre(movie_id, name);
+            var result = await _Genre_Service.UpdateGenre(genre_id, name);
             switch (result.success)
             {
                 case true:
@@ -84,9 +83,9 @@ namespace MovieWebAPI.Controllers
 
         [HttpGet]
         [Route("[action]")]
-        public async Task<IActionResult> DeleteGenre(long movie_id)
+        public async Task<IActionResult> DeleteGenre(long genre_id)
         {
-            var result = await _Genre_Service.DeleteGenre(movie_id);
+            var result = await _Genre_Service.DeleteGenre(genre_id);
             switch (result.success)
             {
                 case true: 

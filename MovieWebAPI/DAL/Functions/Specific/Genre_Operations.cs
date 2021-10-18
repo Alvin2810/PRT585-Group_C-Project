@@ -88,7 +88,7 @@ namespace DAL.Functions.Specific
             {
                 using (DatabaseContext context = new DatabaseContext(DatabaseContext.Options.DatabaseOptions))
                 {
-                    var recordToDelete = await context.FindAsync<Movie>(entityId);
+                    var recordToDelete = await context.FindAsync<Genre>(entityId);
                     if (recordToDelete != null)
                     {
                         context.Remove(recordToDelete);
@@ -104,7 +104,7 @@ namespace DAL.Functions.Specific
             }
         }
 
-        public Task<Movie> Create(string Movie)
+        public Task<Genre> Create(string Genre)
         {
             throw new NotImplementedException();
         }

@@ -8,10 +8,10 @@ namespace DAL.Functions.Interfaces
 {
     public interface IGenre_Operations
     {
-        Task<Movie> Create(Movie objectToAdd);
-        Task<Movie> Read(Int64 entityId);
-        Task<List<Movie>> ReadAll();
-        Task<Movie> Update(Movie objectToUpdate, Int64 entityId);
+        Task<Genre> Create(Genre objectToAdd);
+        Task<Genre> Read(Int64 entityId);
+        Task<List<Genre>> ReadAll();
+        Task<Genre> Update(Genre objectToUpdate, Int64 entityId);
         Task<bool> Delete(Int64 entityId);
     }
 }

@@ -35,4 +35,17 @@ export class ApiService {
       return this.httpClient.get('https://localhost:44341/api/Genre/UpdateGenre?genre_id='+Id+'&name='+name);
   
   }
+  public getAllTheatres(){
+    return this.httpClient.get('https://localhost:44341/api/Theatre/GetAllTheatres');
+  }
+  public deleteTheatre(Id: any){
+    return this.httpClient.get('https://localhost:44341/api/Theatre/DeleteTheatre?theatre_id='+Id);
+  }
+  public createTheatre(name: string){
+    return this.httpClient.get('https://localhost:44341/api/Theatre/AddTheatre?name='+name);
+  }
+  public updateTheatre(Id: any, name:string){
+      return this.httpClient.get('https://localhost:44341/api/Theatre/UpdateTheatre?theatre_id='+Id+'&name='+name);
+  
+  }
 }

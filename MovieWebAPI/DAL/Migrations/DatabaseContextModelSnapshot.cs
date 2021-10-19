@@ -38,6 +38,21 @@ namespace DAL.Migrations
 
                     b.ToTable("Movies");
                 });
+
+            modelBuilder.Entity("DAL.Entities.Theatre", b =>
+                {
+                    b.Property<long>("TheatreId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Theatre_Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("TheatreId");
+
+                    b.ToTable("Theatres");
+                });
 #pragma warning restore 612, 618
         }
     }

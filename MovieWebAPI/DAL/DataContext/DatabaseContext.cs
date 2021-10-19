@@ -39,6 +39,7 @@ namespace DAL.DataContext
         //Our DbSets [Entities].
 
         public DbSet<Movie> Movies { get; set; }
+        public DbSet<Theatre> Theatres { get; set; }
 
         public DbSet<Actor> Actors { get; set; }
 

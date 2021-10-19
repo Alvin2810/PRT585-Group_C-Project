@@ -2,12 +2,14 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { MovieComponent } from './movie/movie.component';
 import { GenreComponent } from './genre/genre.component';
+import { theatreComponent } from './theatre/theatre.component';
 
 
 
 const routes: Routes = [
   {path:'movie', component: MovieComponent},
-  {path:'genre', component: GenreComponent}
+  {path:'genre', component: GenreComponent},
+  {path:'theatre', component: theatreComponent}
 ];
 
 

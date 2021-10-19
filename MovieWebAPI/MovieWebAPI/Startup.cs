@@ -38,6 +38,7 @@ namespace MovieWebAPI
             #region CUSTOM SERVICES [D-I]
 
             services.AddScoped<IMovie_Service, Movie_Service>();
+            services.AddScoped<ITheatre_Service, Theatre_Service>();
 
             #endregion
 

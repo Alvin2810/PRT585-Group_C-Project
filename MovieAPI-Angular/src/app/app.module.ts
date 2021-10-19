@@ -16,6 +16,7 @@ import {TextFieldModule} from '@angular/cdk/text-field';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { MovieComponent } from './movie/movie.component';
 import { GenreComponent } from './genre/genre.component';
+import { theatreComponent } from './theatre/theatre.component';
 
 
 
@@ -25,6 +26,7 @@ import { GenreComponent } from './genre/genre.component';
     AppComponent,
     MovieComponent,
     GenreComponent,
+    theatreComponent,
   ],
   entryComponents: [],
   imports: [

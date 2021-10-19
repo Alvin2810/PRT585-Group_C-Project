@@ -28,6 +28,7 @@ C:\STUDIES\Github\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.dl
 C:\STUDIES\Github\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\ref\DAL.dll
 C:\STUDIES\Github\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.pdb
 C:\STUDIES\Github\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.genruntimeconfig.cache
+<<<<<<< HEAD
 C:\study\practice\group_assignment\PRT585-Group_C-Project\MovieWebAPI\DAL\bin\Debug\net5.0\DAL.deps.json
 C:\study\practice\group_assignment\PRT585-Group_C-Project\MovieWebAPI\DAL\bin\Debug\net5.0\DAL.runtimeconfig.json
 C:\study\practice\group_assignment\PRT585-Group_C-Project\MovieWebAPI\DAL\bin\Debug\net5.0\DAL.runtimeconfig.dev.json
@@ -43,3 +44,20 @@ C:\study\practice\group_assignment\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\De
 C:\study\practice\group_assignment\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\ref\DAL.dll
 C:\study\practice\group_assignment\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.pdb
 C:\study\practice\group_assignment\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.genruntimeconfig.cache
+=======
+C:\Users\jilug\OneDrive\Documents\PRT585-Group_C-Project\MovieWebAPI\DAL\bin\Debug\net5.0\DAL.deps.json
+C:\Users\jilug\OneDrive\Documents\PRT585-Group_C-Project\MovieWebAPI\DAL\bin\Debug\net5.0\DAL.runtimeconfig.json
+C:\Users\jilug\OneDrive\Documents\PRT585-Group_C-Project\MovieWebAPI\DAL\bin\Debug\net5.0\DAL.runtimeconfig.dev.json
+C:\Users\jilug\OneDrive\Documents\PRT585-Group_C-Project\MovieWebAPI\DAL\bin\Debug\net5.0\DAL.dll
+C:\Users\jilug\OneDrive\Documents\PRT585-Group_C-Project\MovieWebAPI\DAL\bin\Debug\net5.0\ref\DAL.dll
+C:\Users\jilug\OneDrive\Documents\PRT585-Group_C-Project\MovieWebAPI\DAL\bin\Debug\net5.0\DAL.pdb
+C:\Users\jilug\OneDrive\Documents\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.csproj.AssemblyReference.cache
+C:\Users\jilug\OneDrive\Documents\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jilug\OneDrive\Documents\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.AssemblyInfoInputs.cache
+C:\Users\jilug\OneDrive\Documents\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.AssemblyInfo.cs
+C:\Users\jilug\OneDrive\Documents\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\jilug\OneDrive\Documents\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.dll
+C:\Users\jilug\OneDrive\Documents\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\ref\DAL.dll
+C:\Users\jilug\OneDrive\Documents\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.pdb
+C:\Users\jilug\OneDrive\Documents\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.genruntimeconfig.cache
+>>>>>>> 1782e0f2c255c481d9b5e3eb6a863f9ae9565ed2

@@ -15,6 +15,8 @@ import { InputsModule } from '@progress/kendo-angular-inputs';
 import {TextFieldModule} from '@angular/cdk/text-field';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { MovieComponent } from './movie/movie.component';
+import { GenreComponent } from './genre/genre.component';
+
 
 
 
@@ -22,6 +24,7 @@ import { MovieComponent } from './movie/movie.component';
   declarations: [
     AppComponent,
     MovieComponent,
+    GenreComponent,
   ],
   entryComponents: [],
   imports: [

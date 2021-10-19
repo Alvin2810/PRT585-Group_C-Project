@@ -21,4 +21,18 @@ export class ApiService {
       return this.httpClient.get('https://localhost:44341/api/Movie/UpdateMovie?movie_id='+Id+'&name='+name+'&releaseDate='+releaseDate+'&language='+language);
   
   }
+
+  public getAllGenres(){
+    return this.httpClient.get('https://localhost:44341/api/Genre/GetAllGenres');
+  }
+  public deleteGenre(Id: any){
+    return this.httpClient.get('https://localhost:44341/api/Genre/DeleteGenre?genre_id='+Id);
+  }
+  public createGenre(name: string){
+    return this.httpClient.get('https://localhost:44341/api/Genre/AddGenre?name='+name);
+  }
+  public updateGenre(Id: any, name:string){
+      return this.httpClient.get('https://localhost:44341/api/Genre/UpdateGenre?genre_id='+Id+'&name='+name);
+  
+  }
 }

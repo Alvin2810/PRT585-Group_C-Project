@@ -7,7 +7,7 @@ import { theatreComponent } from './theatre/theatre.component';
 
 
 const routes: Routes = [
-  {path:'movie', component: MovieComponent},
+  {path:'', component: MovieComponent},
   {path:'genre', component: GenreComponent},
   {path:'theatre', component: theatreComponent}
 ];

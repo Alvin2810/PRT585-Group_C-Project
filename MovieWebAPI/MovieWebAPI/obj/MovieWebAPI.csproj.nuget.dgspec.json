@@ -1,21 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jilug\\OneDrive\\Documents\\PRT585-Group_C-Project\\MovieWebAPI\\MovieWebAPI\\MovieWebAPI.csproj": {}
+    "C:\\Users\\monsi\\Desktop\\Group Project\\Movie_App\\PRT585-Group_C-Project\\MovieWebAPI\\MovieWebAPI\\MovieWebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jilug\\OneDrive\\Documents\\PRT585-Group_C-Project\\MovieWebAPI\\DAL\\DAL.csproj": {
+    "C:\\Users\\monsi\\Desktop\\Group Project\\Movie_App\\PRT585-Group_C-Project\\MovieWebAPI\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jilug\\OneDrive\\Documents\\PRT585-Group_C-Project\\MovieWebAPI\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\monsi\\Desktop\\Group Project\\Movie_App\\PRT585-Group_C-Project\\MovieWebAPI\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\jilug\\OneDrive\\Documents\\PRT585-Group_C-Project\\MovieWebAPI\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\jilug\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jilug\\OneDrive\\Documents\\PRT585-Group_C-Project\\MovieWebAPI\\DAL\\obj\\",
+        "projectPath": "C:\\Users\\monsi\\Desktop\\Group Project\\Movie_App\\PRT585-Group_C-Project\\MovieWebAPI\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\monsi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\monsi\\Desktop\\Group Project\\Movie_App\\PRT585-Group_C-Project\\MovieWebAPI\\DAL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\jilug\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\monsi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -92,18 +98,24 @@
         }
       }
     },
-    "C:\\Users\\jilug\\OneDrive\\Documents\\PRT585-Group_C-Project\\MovieWebAPI\\LOGIC\\LOGIC.csproj": {
+    "C:\\Users\\monsi\\Desktop\\Group Project\\Movie_App\\PRT585-Group_C-Project\\MovieWebAPI\\LOGIC\\LOGIC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jilug\\OneDrive\\Documents\\PRT585-Group_C-Project\\MovieWebAPI\\LOGIC\\LOGIC.csproj",
+        "projectUniqueName": "C:\\Users\\monsi\\Desktop\\Group Project\\Movie_App\\PRT585-Group_C-Project\\MovieWebAPI\\LOGIC\\LOGIC.csproj",
         "projectName": "LOGIC",
-        "projectPath": "C:\\Users\\jilug\\OneDrive\\Documents\\PRT585-Group_C-Project\\MovieWebAPI\\LOGIC\\LOGIC.csproj",
-        "packagesPath": "C:\\Users\\jilug\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jilug\\OneDrive\\Documents\\PRT585-Group_C-Project\\MovieWebAPI\\LOGIC\\obj\\",
+        "projectPath": "C:\\Users\\monsi\\Desktop\\Group Project\\Movie_App\\PRT585-Group_C-Project\\MovieWebAPI\\LOGIC\\LOGIC.csproj",
+        "packagesPath": "C:\\Users\\monsi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\monsi\\Desktop\\Group Project\\Movie_App\\PRT585-Group_C-Project\\MovieWebAPI\\LOGIC\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\jilug\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\monsi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -116,8 +128,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\jilug\\OneDrive\\Documents\\PRT585-Group_C-Project\\MovieWebAPI\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\jilug\\OneDrive\\Documents\\PRT585-Group_C-Project\\MovieWebAPI\\DAL\\DAL.csproj"
+              "C:\\Users\\monsi\\Desktop\\Group Project\\Movie_App\\PRT585-Group_C-Project\\MovieWebAPI\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\monsi\\Desktop\\Group Project\\Movie_App\\PRT585-Group_C-Project\\MovieWebAPI\\DAL\\DAL.csproj"
               }
             }
           }
@@ -150,18 +162,24 @@
         }
       }
     },
-    "C:\\Users\\jilug\\OneDrive\\Documents\\PRT585-Group_C-Project\\MovieWebAPI\\MovieWebAPI\\MovieWebAPI.csproj": {
+    "C:\\Users\\monsi\\Desktop\\Group Project\\Movie_App\\PRT585-Group_C-Project\\MovieWebAPI\\MovieWebAPI\\MovieWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jilug\\OneDrive\\Documents\\PRT585-Group_C-Project\\MovieWebAPI\\MovieWebAPI\\MovieWebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\monsi\\Desktop\\Group Project\\Movie_App\\PRT585-Group_C-Project\\MovieWebAPI\\MovieWebAPI\\MovieWebAPI.csproj",
         "projectName": "MovieWebAPI",
-        "projectPath": "C:\\Users\\jilug\\OneDrive\\Documents\\PRT585-Group_C-Project\\MovieWebAPI\\MovieWebAPI\\MovieWebAPI.csproj",
-        "packagesPath": "C:\\Users\\jilug\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jilug\\OneDrive\\Documents\\PRT585-Group_C-Project\\MovieWebAPI\\MovieWebAPI\\obj\\",
+        "projectPath": "C:\\Users\\monsi\\Desktop\\Group Project\\Movie_App\\PRT585-Group_C-Project\\MovieWebAPI\\MovieWebAPI\\MovieWebAPI.csproj",
+        "packagesPath": "C:\\Users\\monsi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\monsi\\Desktop\\Group Project\\Movie_App\\PRT585-Group_C-Project\\MovieWebAPI\\MovieWebAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\jilug\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\monsi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -174,8 +192,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\jilug\\OneDrive\\Documents\\PRT585-Group_C-Project\\MovieWebAPI\\LOGIC\\LOGIC.csproj": {
-                "projectPath": "C:\\Users\\jilug\\OneDrive\\Documents\\PRT585-Group_C-Project\\MovieWebAPI\\LOGIC\\LOGIC.csproj"
+              "C:\\Users\\monsi\\Desktop\\Group Project\\Movie_App\\PRT585-Group_C-Project\\MovieWebAPI\\LOGIC\\LOGIC.csproj": {
+                "projectPath": "C:\\Users\\monsi\\Desktop\\Group Project\\Movie_App\\PRT585-Group_C-Project\\MovieWebAPI\\LOGIC\\LOGIC.csproj"
               }
             }
           }

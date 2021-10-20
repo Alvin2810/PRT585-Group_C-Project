@@ -25,9 +25,8 @@ export class FormActorComponent implements OnInit {
         validators: [Validators.required]
       }],
       dateOfBirth: '',
-      biography:'',
-      picture:''
-      
+      picture:'',
+      biography:''
     });
 
     if(this.model !== undefined){

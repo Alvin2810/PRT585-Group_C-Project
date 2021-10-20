@@ -12,8 +12,12 @@ import { HomeComponent } from './home/home.component';
 
 
 const routes: Routes = [
+<<<<<<< HEAD
   {path: '', component: HomeComponent},
   {path:'movie', component: MovieComponent},
+=======
+  {path:'', component: MovieComponent},
+>>>>>>> 2c42c9952f4510b830415f6d0b98ec62173d54d2
   {path:'genre', component: GenreComponent},
   {path:'theatre', component: theatreComponent},
   {path: 'actors', component: IndexActorsComponent},

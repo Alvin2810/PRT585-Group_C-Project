@@ -6,37 +6,24 @@
    
 			<div class="header__item"><a id="id" class="filter__link" href="#"><b>ID</b></a></div>
 			<div class="header__item"><a id="name" class="filter__link filter__link--number" href="#"><b>Genre Name</b></a></div>
+      <div class="header__item"><a id="action" class="filter__link filter__link--number" href="#"><b>Actions</b></a></div>
 
 		</div>
 		<div *ngFor="let genre of genreList" class="table-content">	
 			<div class="table-row">		
 				<div class="table-data"><input type="text" name="id" class="form-control" [(ngModel)]="genre.genre_id"></div>
 				<div class="table-data"><input type="text" name="name" class="form-control" [(ngModel)]="genre.name"></div>
+
 				<div class="table-data">
                 
-                    <!-- <button class="badge badge-danger mr-2" (click)="deleteCustomer(customer.customerID)">
-                        Delete
-                      </button>
-                      <button class="badge badge-danger mr-2" (click)="updateCustomer(customer)">
-                        Update
-                      </button> -->
+
                       <button mat-stroked-button color="warn" (click)="deleteGenre(genre.genre_id)">
                         Delete
                       </button>
-                      <!-- <button mat-button class="badge mr-2" color="primary" (click)="updateCustomer(customer)">
-                        Update
-                      </button> -->
+
                 </div>
                 <div class="table-data">
-                    <!-- <button class="badge badge-danger mr-2" (click)="deleteCustomer(customer.customerID)">
-                        Delete
-                      </button>
-                      <button class="badge badge-danger mr-2" (click)="updateCustomer(customer)">
-                        Update
-                      </button> -->
-                      <!-- <button mat-button class="badge mr-2" color="warn" (click)="deleteCustomer(customer.customerID)">
-                        Delete
-                      </button> -->
+
                       <button mat-raised-button color="primary" (click)="updateGenre(genre)">
                         Update
                       </button>
@@ -57,9 +44,7 @@
                   </th>
                   <th>
                     <th>
-                      <!-- <button class="badge badge-danger mr-2">
-                            Create
-                        </button> -->
+
                         <button mat-raised-button color="accent">
                             Create
                         </button>

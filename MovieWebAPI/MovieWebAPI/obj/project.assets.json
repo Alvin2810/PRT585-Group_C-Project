@@ -7746,12 +7746,18 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\huy\\.nuget\\packages\\": {},
+=======
+    "C:\\Users\\monsi\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+>>>>>>> 2c42c9952f4510b830415f6d0b98ec62173d54d2
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\study\\practice\\group_assignment\\PRT585-Group_C-Project\\MovieWebAPI\\MovieWebAPI\\MovieWebAPI.csproj",
       "projectName": "MovieWebAPI",
       "projectPath": "C:\\study\\practice\\group_assignment\\PRT585-Group_C-Project\\MovieWebAPI\\MovieWebAPI\\MovieWebAPI.csproj",
@@ -7763,6 +7769,21 @@
       ],
       "configFilePaths": [
         "C:\\Users\\huy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "C:\\Users\\monsi\\Desktop\\Group Project\\Movie_App\\PRT585-Group_C-Project\\MovieWebAPI\\MovieWebAPI\\MovieWebAPI.csproj",
+      "projectName": "MovieWebAPI",
+      "projectPath": "C:\\Users\\monsi\\Desktop\\Group Project\\Movie_App\\PRT585-Group_C-Project\\MovieWebAPI\\MovieWebAPI\\MovieWebAPI.csproj",
+      "packagesPath": "C:\\Users\\monsi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\monsi\\Desktop\\Group Project\\Movie_App\\PRT585-Group_C-Project\\MovieWebAPI\\MovieWebAPI\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\monsi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+>>>>>>> 2c42c9952f4510b830415f6d0b98ec62173d54d2
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -7777,8 +7798,13 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\study\\practice\\group_assignment\\PRT585-Group_C-Project\\MovieWebAPI\\LOGIC\\LOGIC.csproj": {
               "projectPath": "C:\\study\\practice\\group_assignment\\PRT585-Group_C-Project\\MovieWebAPI\\LOGIC\\LOGIC.csproj"
+=======
+            "C:\\Users\\monsi\\Desktop\\Group Project\\Movie_App\\PRT585-Group_C-Project\\MovieWebAPI\\LOGIC\\LOGIC.csproj": {
+              "projectPath": "C:\\Users\\monsi\\Desktop\\Group Project\\Movie_App\\PRT585-Group_C-Project\\MovieWebAPI\\LOGIC\\LOGIC.csproj"
+>>>>>>> 2c42c9952f4510b830415f6d0b98ec62173d54d2
             }
           }
         }

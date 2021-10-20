@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\study\\practice\\group_assignment\\PRT585-Group_C-Project\\MovieWebAPI\\LOGIC\\LOGIC.csproj": {}
   },
   "projects": {
@@ -18,6 +19,27 @@
         ],
         "configFilePaths": [
           "C:\\Users\\huy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "C:\\Users\\monsi\\Desktop\\Group Project\\Movie_App\\PRT585-Group_C-Project\\MovieWebAPI\\LOGIC\\LOGIC.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\monsi\\Desktop\\Group Project\\Movie_App\\PRT585-Group_C-Project\\MovieWebAPI\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\monsi\\Desktop\\Group Project\\Movie_App\\PRT585-Group_C-Project\\MovieWebAPI\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "C:\\Users\\monsi\\Desktop\\Group Project\\Movie_App\\PRT585-Group_C-Project\\MovieWebAPI\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\monsi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\monsi\\Desktop\\Group Project\\Movie_App\\PRT585-Group_C-Project\\MovieWebAPI\\DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\monsi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+>>>>>>> 2c42c9952f4510b830415f6d0b98ec62173d54d2
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -96,6 +118,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\study\\practice\\group_assignment\\PRT585-Group_C-Project\\MovieWebAPI\\LOGIC\\LOGIC.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -110,6 +133,24 @@
         ],
         "configFilePaths": [
           "C:\\Users\\huy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "C:\\Users\\monsi\\Desktop\\Group Project\\Movie_App\\PRT585-Group_C-Project\\MovieWebAPI\\LOGIC\\LOGIC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\monsi\\Desktop\\Group Project\\Movie_App\\PRT585-Group_C-Project\\MovieWebAPI\\LOGIC\\LOGIC.csproj",
+        "projectName": "LOGIC",
+        "projectPath": "C:\\Users\\monsi\\Desktop\\Group Project\\Movie_App\\PRT585-Group_C-Project\\MovieWebAPI\\LOGIC\\LOGIC.csproj",
+        "packagesPath": "C:\\Users\\monsi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\monsi\\Desktop\\Group Project\\Movie_App\\PRT585-Group_C-Project\\MovieWebAPI\\LOGIC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\monsi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+>>>>>>> 2c42c9952f4510b830415f6d0b98ec62173d54d2
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -124,8 +165,13 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+<<<<<<< HEAD
               "C:\\study\\practice\\group_assignment\\PRT585-Group_C-Project\\MovieWebAPI\\DAL\\DAL.csproj": {
                 "projectPath": "C:\\study\\practice\\group_assignment\\PRT585-Group_C-Project\\MovieWebAPI\\DAL\\DAL.csproj"
+=======
+              "C:\\Users\\monsi\\Desktop\\Group Project\\Movie_App\\PRT585-Group_C-Project\\MovieWebAPI\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\monsi\\Desktop\\Group Project\\Movie_App\\PRT585-Group_C-Project\\MovieWebAPI\\DAL\\DAL.csproj"
+>>>>>>> 2c42c9952f4510b830415f6d0b98ec62173d54d2
               }
             }
           }

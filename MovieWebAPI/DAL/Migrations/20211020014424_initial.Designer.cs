@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DAL.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    [Migration("20211019133149_theatre")]
-    partial class theatre
+    [Migration("20211020014424_initial")]
+    partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -19,6 +19,21 @@ namespace DAL.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.11")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+            modelBuilder.Entity("DAL.Entities.Actor", b =>
+                {
+                    b.Property<long>("ActorId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Actor_Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ActorId");
+
+                    b.ToTable("Actors");
+                });
 
             modelBuilder.Entity("DAL.Entities.Movie", b =>
                 {

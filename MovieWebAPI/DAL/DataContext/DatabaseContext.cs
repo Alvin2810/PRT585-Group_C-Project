@@ -40,7 +40,7 @@ namespace DAL.DataContext
 
         public DbSet<Movie> Movies { get; set; }
         public DbSet<Theatre> Theatres { get; set; }
-
+        public DbSet<Genre> Genres { get; set; }
         public DbSet<Actor> Actors { get; set; }
 
         //protected override void OnModelCreating(ModelBuilder modelBuilder)

@@ -1,63 +1,15 @@
-C:\Users\monsi\Desktop\Group Project\Movie_App\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.csproj.AssemblyReference.cache
-C:\Users\monsi\Desktop\Group Project\Movie_App\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\monsi\Desktop\Group Project\Movie_App\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.AssemblyInfoInputs.cache
-C:\Users\monsi\Desktop\Group Project\Movie_App\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.AssemblyInfo.cs
-C:\Users\monsi\Desktop\Group Project\Movie_App\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.csproj.CoreCompileInputs.cache
 C:\Users\monsi\Desktop\Group Project\Movie_App\PRT585-Group_C-Project\MovieWebAPI\DAL\bin\Debug\net5.0\DAL.deps.json
 C:\Users\monsi\Desktop\Group Project\Movie_App\PRT585-Group_C-Project\MovieWebAPI\DAL\bin\Debug\net5.0\DAL.runtimeconfig.json
 C:\Users\monsi\Desktop\Group Project\Movie_App\PRT585-Group_C-Project\MovieWebAPI\DAL\bin\Debug\net5.0\DAL.runtimeconfig.dev.json
 C:\Users\monsi\Desktop\Group Project\Movie_App\PRT585-Group_C-Project\MovieWebAPI\DAL\bin\Debug\net5.0\DAL.dll
 C:\Users\monsi\Desktop\Group Project\Movie_App\PRT585-Group_C-Project\MovieWebAPI\DAL\bin\Debug\net5.0\ref\DAL.dll
 C:\Users\monsi\Desktop\Group Project\Movie_App\PRT585-Group_C-Project\MovieWebAPI\DAL\bin\Debug\net5.0\DAL.pdb
+C:\Users\monsi\Desktop\Group Project\Movie_App\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\monsi\Desktop\Group Project\Movie_App\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.AssemblyInfoInputs.cache
+C:\Users\monsi\Desktop\Group Project\Movie_App\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.AssemblyInfo.cs
+C:\Users\monsi\Desktop\Group Project\Movie_App\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.csproj.CoreCompileInputs.cache
 C:\Users\monsi\Desktop\Group Project\Movie_App\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.dll
 C:\Users\monsi\Desktop\Group Project\Movie_App\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\ref\DAL.dll
 C:\Users\monsi\Desktop\Group Project\Movie_App\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.pdb
 C:\Users\monsi\Desktop\Group Project\Movie_App\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.genruntimeconfig.cache
-C:\STUDIES\Github\PRT585-Group_C-Project\MovieWebAPI\DAL\bin\Debug\net5.0\DAL.deps.json
-C:\STUDIES\Github\PRT585-Group_C-Project\MovieWebAPI\DAL\bin\Debug\net5.0\DAL.runtimeconfig.json
-C:\STUDIES\Github\PRT585-Group_C-Project\MovieWebAPI\DAL\bin\Debug\net5.0\DAL.runtimeconfig.dev.json
-C:\STUDIES\Github\PRT585-Group_C-Project\MovieWebAPI\DAL\bin\Debug\net5.0\DAL.dll
-C:\STUDIES\Github\PRT585-Group_C-Project\MovieWebAPI\DAL\bin\Debug\net5.0\ref\DAL.dll
-C:\STUDIES\Github\PRT585-Group_C-Project\MovieWebAPI\DAL\bin\Debug\net5.0\DAL.pdb
-C:\STUDIES\Github\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.csproj.AssemblyReference.cache
-C:\STUDIES\Github\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
-C:\STUDIES\Github\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.AssemblyInfoInputs.cache
-C:\STUDIES\Github\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.AssemblyInfo.cs
-C:\STUDIES\Github\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.csproj.CoreCompileInputs.cache
-C:\STUDIES\Github\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.dll
-C:\STUDIES\Github\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\ref\DAL.dll
-C:\STUDIES\Github\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.pdb
-C:\STUDIES\Github\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.genruntimeconfig.cache
-<<<<<<< HEAD
-C:\study\practice\group_assignment\PRT585-Group_C-Project\MovieWebAPI\DAL\bin\Debug\net5.0\DAL.deps.json
-C:\study\practice\group_assignment\PRT585-Group_C-Project\MovieWebAPI\DAL\bin\Debug\net5.0\DAL.runtimeconfig.json
-C:\study\practice\group_assignment\PRT585-Group_C-Project\MovieWebAPI\DAL\bin\Debug\net5.0\DAL.runtimeconfig.dev.json
-C:\study\practice\group_assignment\PRT585-Group_C-Project\MovieWebAPI\DAL\bin\Debug\net5.0\DAL.dll
-C:\study\practice\group_assignment\PRT585-Group_C-Project\MovieWebAPI\DAL\bin\Debug\net5.0\ref\DAL.dll
-C:\study\practice\group_assignment\PRT585-Group_C-Project\MovieWebAPI\DAL\bin\Debug\net5.0\DAL.pdb
-C:\study\practice\group_assignment\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.csproj.AssemblyReference.cache
-C:\study\practice\group_assignment\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
-C:\study\practice\group_assignment\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.AssemblyInfoInputs.cache
-C:\study\practice\group_assignment\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.AssemblyInfo.cs
-C:\study\practice\group_assignment\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.csproj.CoreCompileInputs.cache
-C:\study\practice\group_assignment\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.dll
-C:\study\practice\group_assignment\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\ref\DAL.dll
-C:\study\practice\group_assignment\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.pdb
-C:\study\practice\group_assignment\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.genruntimeconfig.cache
-=======
-C:\Users\jilug\OneDrive\Documents\PRT585-Group_C-Project\MovieWebAPI\DAL\bin\Debug\net5.0\DAL.deps.json
-C:\Users\jilug\OneDrive\Documents\PRT585-Group_C-Project\MovieWebAPI\DAL\bin\Debug\net5.0\DAL.runtimeconfig.json
-C:\Users\jilug\OneDrive\Documents\PRT585-Group_C-Project\MovieWebAPI\DAL\bin\Debug\net5.0\DAL.runtimeconfig.dev.json
-C:\Users\jilug\OneDrive\Documents\PRT585-Group_C-Project\MovieWebAPI\DAL\bin\Debug\net5.0\DAL.dll
-C:\Users\jilug\OneDrive\Documents\PRT585-Group_C-Project\MovieWebAPI\DAL\bin\Debug\net5.0\ref\DAL.dll
-C:\Users\jilug\OneDrive\Documents\PRT585-Group_C-Project\MovieWebAPI\DAL\bin\Debug\net5.0\DAL.pdb
-C:\Users\jilug\OneDrive\Documents\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.csproj.AssemblyReference.cache
-C:\Users\jilug\OneDrive\Documents\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\jilug\OneDrive\Documents\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.AssemblyInfoInputs.cache
-C:\Users\jilug\OneDrive\Documents\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.AssemblyInfo.cs
-C:\Users\jilug\OneDrive\Documents\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.csproj.CoreCompileInputs.cache
-C:\Users\jilug\OneDrive\Documents\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.dll
-C:\Users\jilug\OneDrive\Documents\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\ref\DAL.dll
-C:\Users\jilug\OneDrive\Documents\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.pdb
-C:\Users\jilug\OneDrive\Documents\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.genruntimeconfig.cache
->>>>>>> 1782e0f2c255c481d9b5e3eb6a863f9ae9565ed2
+C:\Users\monsi\Desktop\Group Project\Movie_App\PRT585-Group_C-Project\MovieWebAPI\DAL\obj\Debug\net5.0\DAL.csproj.AssemblyReference.cache

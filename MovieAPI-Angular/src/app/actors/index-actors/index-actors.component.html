@@ -1,0 +1,26 @@
+<h2>Actors</h2>
+
+<button mat-flat-button color="primary" routerLink="/actors/create">Create new</button>
+<ng-container content>
+    <div class="actors-container">
+      <div
+        *ngFor="let actor of actors; let index = index"
+        class="actor-container"
+      >
+       <a>
+         <img [src]="actor.poster" alt="Poster" />
+       </a>
+       <p>
+         <a>{{actor.title}}</a>
+       </p>
+       <div>
+         <a mat-flat-button color="primary">
+          Edit
+         </a>
+         <button mat-flat-button color="warn" type="button">
+           Delete
+         </button>
+       </div>
+      </div>
+    </div>
+  </ng-container>

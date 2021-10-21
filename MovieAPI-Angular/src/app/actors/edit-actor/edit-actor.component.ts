@@ -5,7 +5,7 @@ import { actorCreationDTO, actorDTO } from '../actors.model';
 @Component({
   selector: 'app-edit-actor',
   templateUrl: './edit-actor.component.html',
-  styleUrls: ['./edit-actor.component.css']
+  styleUrls: ['./edit-actor.component.scss']
 })
 export class EditActorComponent implements OnInit {
 

@@ -2,6 +2,7 @@ import { Component,EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { actorCreationDTO } from '../actors.model';
 
+
 @Component({
   selector: 'app-form-actor',
   templateUrl: './form-actor.component.html',

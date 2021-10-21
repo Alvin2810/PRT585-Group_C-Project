@@ -12,7 +12,6 @@ export class CreateActorComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
   saveChanges(actorCreationDTO: actorCreationDTO){
     console.log(actorCreationDTO);
   }

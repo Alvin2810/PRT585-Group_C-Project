@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-index-actors',
@@ -10,13 +10,6 @@ export class IndexActorsComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-  }
-
-  @Input()
-  actors: any
-
-  remove(index: number){
-    this.actors.splice(index, 1);
   }
 
 }
